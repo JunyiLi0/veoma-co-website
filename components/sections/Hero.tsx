@@ -61,13 +61,17 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
-          <Button variant="primary" size="lg" asChild>
-            <Link href="/projet">Confiez-nous votre projet</Link>
-          </Button>
+          <Link href="/projet">
+            <Button variant="primary" size="lg">
+              Confiez-nous votre projet
+            </Button>
+          </Link>
 
-          <Button variant="secondary" size="lg" className="border-white text-white hover:bg-white hover:text-midnight-blue" asChild>
-            <Link href="/expertise">Découvrir notre expertise</Link>
-          </Button>
+          <Link href="/expertise">
+            <Button variant="secondary" size="lg" className="border-white text-white hover:bg-white hover:text-midnight-blue">
+              Découvrir notre expertise
+            </Button>
+          </Link>
         </motion.div>
       </motion.div>
     </section>

@@ -109,9 +109,11 @@ export function ContactSection() {
               <p className="font-body text-slate-grey mb-8">
                 Décrivez-nous votre projet et recevez une réponse personnalisée sous 48h
               </p>
-              <Button variant="primary" size="lg" asChild>
-                <Link href="/projet">Démarrer un projet</Link>
-              </Button>
+              <Link href="/projet">
+                <Button variant="primary" size="lg">
+                  Démarrer un projet
+                </Button>
+              </Link>
             </motion.div>
           </div>
         </div>

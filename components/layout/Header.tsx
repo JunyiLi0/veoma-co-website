@@ -40,9 +40,11 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="primary" size="sm" asChild>
-              <Link href="/projet">Confiez-nous votre projet</Link>
-            </Button>
+            <Link href="/projet">
+              <Button variant="primary" size="sm">
+                Confiez-nous votre projet
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -74,9 +76,11 @@ export function Header() {
               <Link href="/contact" className="font-body text-midnight-blue">
                 Contact
               </Link>
-              <Button variant="primary" size="sm" className="w-full" asChild>
-                <Link href="/projet">Confiez-nous votre projet</Link>
-              </Button>
+              <Link href="/projet" className="w-full">
+                <Button variant="primary" size="sm" className="w-full">
+                  Confiez-nous votre projet
+                </Button>
+              </Link>
             </div>
           </div>
         )}
