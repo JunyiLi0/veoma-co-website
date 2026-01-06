@@ -1,0 +1,21 @@
+{
+  "name": "Veoma & Co Website",
+  "description": "Site web e-commerce et vitrine pour Veoma & Co - Création d'uniformes professionnels sur-mesure",
+  "version": "1.0.0",
+  "rules": [
+    ".claude/rules/design-system.md",
+    ".claude/rules/frontend-guidelines.md",
+    ".claude/rules/code-standards.md"
+  ],
+  "context": {
+    "brand": "Veoma & Co",
+    "industry": "Fashion B2B - Uniformes professionnels",
+    "tech_stack": "Next.js 15, React, TypeScript, Tailwind CSS",
+    "design_philosophy": "L'Élégance Fonctionnelle - Premium B2B avec touche couture"
+  },
+  "prompts": {
+    "new_component": "Créer un nouveau composant React suivant les règles de la charte graphique Veoma & Co",
+    "new_page": "Créer une nouvelle page suivant la structure et le design system défini",
+    "review_design": "Vérifier la conformité avec la charte graphique (couleurs, typographie, espacement)"
+  }
+}
