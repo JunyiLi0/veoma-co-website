@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         className={`${playfairDisplay.variable} ${lato.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
